@@ -18,6 +18,6 @@ main(void) {
             sum += i;
         }
     }
-
+    printf("0부터 %d까지에서 소수의 합: %d", MAX, sum);
 	return 0;
 }
