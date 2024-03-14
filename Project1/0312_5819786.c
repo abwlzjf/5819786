@@ -18,6 +18,6 @@ main(void) {
             sum += i;
         }
     }
-    printf("0ºÎÅÍ %d±îÁö¿¡¼­ ¼Ò¼öÀÇ ÇÕ: %d", MAX, sum);
+    printf("0ë¶€í„° 100ê¹Œì§€ì˜ ì†Œìˆ˜ì˜ í•©: %d", MAX, sum);
 	return 0;
 }
