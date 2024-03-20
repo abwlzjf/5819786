@@ -24,7 +24,7 @@ int main() {
 	result_iter = factorial_iter(20);
 	end = clock();
 
-	time = ((double)(end - start)) / CLOCKS_PER_SEC);
+	time = ((double)(end - start)) / CLOCKS_PER_SEC;
 	printf("Factorial Recursive Result: %lf\n", result_iter);
 	printf("Time: %lf\n", time);
 
@@ -32,7 +32,7 @@ int main() {
 	result_rec = factorial_rec(20);
 	end = clock();
 
-	time = ((double)(end - start)) / CLOCKS_PER_SEC);
+	time = ((double)(end - start)) / CLOCKS_PER_SEC;
 	printf("Factorial Recursive Result: %lf\n", result_rec);
 	printf("Time: %lf\n", time);
 	return 0;
